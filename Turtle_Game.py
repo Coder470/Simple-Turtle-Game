@@ -20,9 +20,6 @@ def turtle_path():
     right(90)
     forward(50)
 
-
-
-
 #Game execution
 background()
 turtle_model()
