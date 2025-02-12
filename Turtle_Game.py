@@ -1,5 +1,8 @@
 from turtle import*
 
+def background():
+    Screen().bgcolor("turquoise")
+
 def turtle_model():
     color("blue")
     shape("turtle")
@@ -17,15 +20,14 @@ def turtle_path():
     right(90)
     forward(50)
 
-def background():
-    Screen().bgcolor("turquoise")
+
 
 
 #Game execution
+background()
 turtle_model()
 turtle_speed()
 turtle_path()
-background()
 
 #Keeps the window open
 done()
